@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+
+.box {
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.info {
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.info-title {
+    font-size: 40px;
+    margin-top: 5px;
+    color: #ff3457;
+}
+
+.info-description {
+    font-size: 20px;
+}
+
+.info-place {
+    font-size: 30px;
+    color: crimson;
+}
+
+.current-place {
+    margin: 3px;
+    color: white;
+}
+
+.map {}
+
+.map svg {
+    stroke: white;
+    stroke-opacity: 0.5;
+}
+
+.map svg path {
+    transition: 0.5s;
+    fill: #ff3457;
+}
+
+.map svg path:hover {
+    fill: rgb(216, 8, 49);
+}
